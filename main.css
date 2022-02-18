@@ -56,7 +56,7 @@ img{
 .header{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("image/banner-img.jpg") center/cover no-repeat;
     min-height: 100vh;
-    color: 3fff;
+    color: #fff;
     padding: 25px;
     display: flex;
     flex-direction: column;
