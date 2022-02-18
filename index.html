@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sapphire Cove Hotel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" 
+        crossorigin="anonymous"></script>
+        <link rel = "icon" href = "image/logo.png" type = "image/png">
+    </head>
+    <body>
+        <!--header-->
+        <header class = "header" id ="header">
+            <div class="head-top">
+                <div class="site-name">
+                    <span>SAPPHIRE COVE HOTEL</span>
+                </div>
+                <div class="site-nav">
+                    <span id="nav-btn">MENU<i class="fas fa-bars"></i></span>
+                </div>
+                </div>
+                <div class="head-bottom flex">
+                    <h2>NICE AND COMFORTABLE PLACE TO STAY</h2>
+                    <button type="button" class="head-btn">GET STARTED</button>
+                </div>
+            </header>
+            <!--end of header-->
+            <!--side nav bar-->
+            <div class="sidenav" id="sidenav">
+                <span class="cancel-btn" id="cancel-btn">
+                    <i class="fas fa-time"></i>
+                </span>
+                <ul class="navbar">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#rooms">rooms</a></li>
+                    <li><a href="#customers">customers</a></li>
+                </ul>
+                <button class="btn sign-up">sign up</button>
+                <button class="btn log-in">log in</button>
+            </div>
+            <!--end of side navbar-->
+            <!--fullscreen modal-->
+            <div id="modal"></div>
+            <!--end of fullscreen modal-->
+            <!--body content-->
+            <section class="services sec-width" id="services">
+                <div class="title">
+                    <h2>services</h2>
+                </div>
+                <div class="services-cotainer">
+                    <!--single service-->
+                    <article class ="service">
+                        <div class ="service-icon">
+                            <span>
+                                <i class ="fas fa-utensils"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Food Service</h2>
+                            <button type="button" class="btn">Know More</button>
+                        </div>
+                    </article>
+                    <!--end of single service-->
+                    <!--single service-->
+                    <article class="service">
+                        <div class="service-icon">
+                            <span>
+                                <i class="fas fa-swimming-pool"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Refreshment</h2>
+                            <button type="button" class="btn">Know More</button>
+                        </div>
+                    </article>
+                    <!--end of single service-->
+                    <!--single service-->
+                    <article class="service">
+                        <div class ="service-icon">
+                            <span>
+                                <i class="fas fa-broom"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Housekeeping</h2>
+                            <button type="button" class="btn">Know More</button>
+                        </div>
+                    </article>
+                    <!--end of single service-->
+                    <!--single service-->
+                    <article class="service">
+                        <div class="service-icon">
+                            <span>
+                                <i class="fas fa-door-closed"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Room Security</h2>
+                            <button type="button" class="btn">Know More</button>
+                        </div>
+                    </article>
+                    <!--end of single service-->
+                </div>
+            </section>
+            <div class ="book">
+                <form class="book-form">
+                    <div class="form-item">
+                    <label for="checkin-date">Check In Date:</label>
+                    <input type="date" id="checkin-date">
+                </div>
+                <div class="form-item">
+                    <label for="checkout-date">Check Out Date:</label>
+                    <input type="date" id="checkout-date">
+                </div>
+                <div class="form-item">
+                    <label for="adult">Adults:</label>
+                    <input type="number" min="1" value="1" id="adult">
+                </div>
+                <div class="form-item">
+                    <label for="children">Children:</label>
+                    <input type="number" min="1" value="1" id="children">
+                </div>
+                <div class="form-item">
+                    <label for="rooms">Rooms:</label>
+                    <input type="number" min="1" value="1" id="rooms">
+                </div>
+                <div class="form-item">
+                    <input type="submit" class="btn" value="Book now">
+                </div>
+                </form>
+                <section class="rooms sec-width" id="rooms">
+                    <div class ="title">
+                        <h2>Rooms</h2>
+                    </div>
+                    <div class="rooms-container">
+                        <!--single room-->
+                        <article class="room">
+                            <div class="room-image">
+                                <img src="image/img1.jpg" alt="room image">
+                            </div>
+                            <div class="room-text">
+                                <h3>Luxury Rooms</h3>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-arrow-alt-circle-right"></i>
+                                        24/7 Butler Service
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-alt-circle-right"></i>
+                                        Each room offers 42 sqm / 452 sqf of luxury.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-alt-circle-right"></i>
+                                        Large, modern bathroom with walk-in shower and separate bathtub.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-alt-circle-right"></i>
+                                        Signature Sapphire Cove bed with 300-thread-count lightweight duvet.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-alt-circle-right"></i>
+                                        Wi-Fi.
+                                    </li>
+                                </ul>
+                                <p>Luxury Rooms are beautifully appointed with a contemporary design and local Sri Lankan touches. All rooms look out over the Indian Ocean or Colombo cityscape.</p>
+                                <p class="rate">
+                                    <span>$99.00 / </span>Per night
+                                </p>
+                                <button type="button" class="btn">Book Now</button>
+                            </div>
+                        </article>
+                        <!--end of single room-->
+                        <!--single room-->
+                        <article class="room">
+                            <div class="room-image">
+                                <img src="image/img2.jpg" alt="room-image">
+                            </div>
+                            <div class="room-text">
+                                <h3>Club Suites</h3>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-arrow-alt-circle-right"></i>
+                                        24/7 Butler Service
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-alt-circle-right"></i>
+                                        Each room offers 42 sqm / 452 sqf of luxury.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-alt-circle-right"></i>
+                                        Large, modern bathroom with walk-in shower and separate bathtub.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-alt-circle-right"></i>
+                                        Signature Sapphire Cove bed with 300-thread-count lightweight duvet.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-arrow-alt-circle-right"></i>
+                                        Wi-Fi.
+                                    </li>
+                                </ul>
+                                <p>As a more refined addition to our offering, the deluxe suite echoes modern, tastefully appointed opulence, at its finest. 
+                                With a lavish 42/452 square foot interior, comprising the bed room, sitting area, private Jacuzzi and much more. 
+                                The interiors are designed to echo a tropical spirit, with a host of quintessential fixtures, including a private balcony and terrace, allowing for sublime views of the surrounding seascapes, the club suites offer occupants an exquisite stay, with limitless possibilities.</p>
+                            <p class="rate">
+                                <span>$110.00 /</span>Per night
+                            </p>
+                            <button type="button" class="btn">Book Now</button>
+                            </div>
+                        </article>
+                        <!--end of single room-->
+                        <!--single room-->
+                        <article class="room">
+                            <div class="room-image">
+                                <img src="image/img3.jpg" alt="room-image">
+                        </div>
+                        <div class="room-text">
+                            <h3>Executive Suites</h3>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                        24/7 Butler Service
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Each room offers 84 sqm / 904 sqf of luxury.
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Large, modern bathroom with walk-in shower and separate bathtub.
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Separate living area.
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Wi-Fi.
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Signature Sapphire Cove bed with 300-thread-count lightweight duvet.
+                                </li>
+                            </ul>
+                            <p>Our Executive Suites are beautifully appointed and include a spacious guest room and separate living room with impressive views of the city and Indian Ocean.</p>
+                            <p class="rate">
+                                <span>$130.00 /</span>Per night
+                            </p>
+                            <button type="button" class="btn">Book Now</button>
+                        </div>
+                        </article>
+                        <!--end of single room-->
+                    </div>
+                </section>
+
+            <section class="customers" id="customers">
+                <div class="sec-width">
+                    <div class="title">
+                        <h2>Customers</h2>
+                    </div>
+                    <div class="customers-container">
+                        <!--single customer-->
+                        <div class="customer">
+                            <div class="rating">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <h3>We Loved it</h3>
+                            <p>Great location and setup with a massive pool surrounded by coconut trees is very unique and enjoyable as always. 
+                                Commitment from the FO management is second to none. 
+                                Very lively setup with performances from good bands almost every night during our stay (cold sweat, flame etc). 
+                                Great food menu and variety of food, superb staff and great value.</p>
+                                <img src="image/cus1.jpg" alt="cutomer image">
+                                <span>Customer Name,Country</span>
+                            </div>
+                            <!--end of single customer-->
+                            <!--single customer-->
+                            <div class="customer">
+                                <div class="rating">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <h3>Comfortable Living</h3>
+                                <p>Lovely hotel, with a fabulous pool and well equipped gym. The buffet for breakfast, lunch and dinner was good, nice selection of curries and western style food. 
+                                    The staff were very helpful</p>
+                                    <img src="image/cus2.jpg" alt="cutomer image">
+                                    <span>Customer Name,Country</span>
+                                </div>
+                            <!--end of single customer-->
+                            <!--single customer--> 
+                            <div class="customer">
+                                <div class="rating">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <h3>Nice Place</h3>
+                                <p>Nice and calm place to expend the holidays.Relaxing atmosphere. Rooms are comfortable and cozy.
+                                    Newly refurbishments are truly comes as a plus to its ambience.Food was upto standard. 
+                                    Friendly staff. Massive pool . Easy access to the sea. Great place to spend a relaxing holiday,not too far from colombo.
+                                </p>
+                                    <img src="image/cus3.jpg" alt="cutomer image">
+                                    <span>Customer Name,Country</span>
+                                </div>
+                            <!--end of single customer--> 
+                    </div>
+                </div>
+            </section>
+            <!--end of body content-->
+            <!--footer-->
+            <footer class="footer">
+                <div class="footer-container">
+                    <div>
+                        <h2>About Us</h2>
+                        <p>Every great city deserves a truly great international hotel - a special place that reflects the importance and the beauty of its location with world-class luxury and the very finest service.
+                            Sapphire Cove Hotel, Colombo is delighted to welcome you to the enchanting capital of Sri Lanka - a precious jewel in the Indian Ocean, with a glittering cultural heritage and a long, proud history.
+                            Sapphire Cove Hotel, Colombo is located adjacent to the city centre’s only helipad. Whether on business or leisure, guests can travel speedily to the airport or other parts of the country with the added benefit of enjoying scenic birds-eye views from a helicopter.
+                        </p>
+                        <ul class="social-icons">
+                            <li class="flex">
+                                <i class="fa fa-twitter fa-2x"></i>
+                            </li>
+                            <li class="flex">
+                                <i class="fa fa-facebook fa-2x"></i>
+                            </li>
+                            <li class="flex">
+                                <i class="fa fa-instagram fa-2x"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Useful Links </h2>
+                        <a href="#">Career</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Service</a>
+                    </div>
+                    <div>
+                        <h2>Privacy</h2>
+                        <a href="#">Career</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Service</a>
+                    </div>
+                    <h2>Have A Question</h2>
+                    <div class="contact-item">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            56 Galle Face, Colombo 2,, Sri Lanka
+                        </span>
+                    </div>
+                    <div class="contact-item">
+                        <span>
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            (94) 11 788 8288
+                        </span>
+                    </div>
+                    <div class="contact-item">
+                        <span>
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            sapphirecove@info.com
+                        </span>
+                    </div> 
+                    </div>
+                </div>
+            </footer>
+            <!--end of footer-->
+            </div>
+            <script src="script.js"></script>
+            </body>
+</html>
